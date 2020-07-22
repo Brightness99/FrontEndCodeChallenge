@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --main-txt-color: #2f3237;
+  --header-bg-color: #222222;
+  --content-bg-color: #f2f1ef;
+  --white: #ffffff;
+  --green: #50e3c2;
+  --active-green: #50a995;
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('./assets/fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url('./assets/fonts/Lato-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Lato-Light';
+  src: url('./assets/fonts/Lato-Light.ttf');
+}
+
+p {
+  margin: 0;
+}
+
+h1, .h1 {
+  font-size: 40px;
+  line-height: 120%;
+  font-family: 'Lato-Regular';
+  color: var(--main-txt-color);
+}
+
+h2, .h2 {
+  font-size: 36px;
+  line-height: 120%;
+  font-family: 'Lato-Regular';
+  color: var(--main-txt-color);
+}
+
+h3, .h3 {
+  font-size: 28px;
+  line-height: 120%;
+  font-family: 'Lato-Regular';
+  color: var(--main-txt-color);
+}
+
+h4, .h4 {
+  font-size: 24px;
+  line-height: 120%;
+  font-family: 'Lato-Regular';
+  color: var(--main-txt-color);
+}
+
+h5, .h5 {
+  font-size: 20px;
+  line-height: 135%;
+  font-family: 'Lato-Regular';
+  color: var(--main-txt-color);
+}
+
+h6, .h6 {
+  font-size: 18px;
+  line-height: 135%;
+  font-family: 'Lato-Regular';
+  color: var(--main-txt-color);
+}
+
+.h6-sm {
+  font-size: 16px;
+  line-height: 135%;
+  font-family: 'Lato-Regular';
+  color: var(--main-txt-color);
+}
+
+.t-bold {
+  font-family: 'Lato-Bold';
+}
+
+.t-light {
+  font-family: 'Lato-Light';
+}
+
+.t-white {
+  color: var(--white);
+}
+
+@media (min-width: 768px) {
+  h1, .h1 {
+    font-size: 60px;
+  }
+
+  h2, .h2 {
+    font-size: 55px;
+  }
+
+  h3, .h3 {
+    font-size: 31px;
+  }
+}

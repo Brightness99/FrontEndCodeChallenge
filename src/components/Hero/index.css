@@ -1,0 +1,49 @@
+.hero {
+  background-image: url('../../assets/img/photo-couch.jpg');
+  height: 600px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero p {
+  color: var(--white);
+}
+
+.hero .h4 {
+  margin-bottom: 20px;
+}
+
+.hero .h5 {
+  max-width: 480px;
+  margin-top: 56px;
+  margin-bottom: 30px;
+}
+
+.hero__container {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero__content {
+  margin-bottom: 90px;
+}
+
+
+@media (min-width: 576px) {
+  .hero {
+    height: 700px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    height: 853px;
+  }
+  .hero .h5 {
+    max-width: 480px;
+    margin-top: 56px;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,20 @@
+.header {
+  height: 52px;
+  background-color: var(--header-bg-color);
+}
+
+.header__logo {
+  height: 16px;
+  margin-top: 18px;
+}
+
+.header__logo g {
+  fill: var(--green);
+}
+
+@media (min-width: 768px) {
+  .header__logo {
+    height: 20px;
+    margin-top: 16px;
+  }
+}

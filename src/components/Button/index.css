@@ -1,0 +1,22 @@
+.button {
+  height: 40px;
+  background-color: var(--green);
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding-left: 34px;
+  padding-right: 34px;
+  border: none;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button:active {
+  background-color: var(--active-green);
+}
+
+.button:focus {
+  outline: none;
+  background-color: var(--active-green);
+}
